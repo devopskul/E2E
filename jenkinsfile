@@ -89,7 +89,7 @@ pipeline {
     echo 'JENKINS PIPELINE SUCCESSFUL'
   }
   failure {
-    mail body: 'Pipeline Details', subject: 'The Pipeline failed', to: 'scmlearningcentre@gmail.com'
+    mail body: 'Pipeline Details', subject: 'The Pipeline failed', to: 'subrajitdash.ds@gmail.com'
   }
  }
 }
